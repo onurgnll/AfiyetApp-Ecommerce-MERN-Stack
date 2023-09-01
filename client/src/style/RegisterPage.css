@@ -1,0 +1,14 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .registerlogin {
+    background: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 5rem);
+  }

@@ -1,0 +1,24 @@
+.arama{
+    min-height: 100%;
+}
+
+
+.products{
+    overflow: auto;
+    border-bottom: 1px gray solid;
+}
+.genellll{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.restaurantsearchdiv{
+    cursor: pointer;
+    margin: 1rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.restaurantsearchdiv:hover{
+    border: 1px solid rgb(196, 196, 196);
+}

@@ -1,0 +1,59 @@
+.imgcerceve{
+    overflow: hidden;
+    width: 322px;
+    height: 322px;
+    border: 2px solid gray;
+    border-radius: 150px;
+}
+
+.formm{
+    margin-left: 8rem;
+    padding: 5rem;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.inp{
+    padding: 4px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border: none;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+}
+.inpp{
+    margin-bottom: 1rem;
+    min-height: 20px !important;
+}
+
+.inp:focus{
+    outline: none;
+}
+
+.subbutton{
+    padding: 5px 8px; 
+    border: none;
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+.subbutton:hover{
+    background-color: orange;
+}
+.subbutton:active{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.demo{
+    margin-top: 5rem;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    height: 10rem;
+
+}
+
+.demobtn{
+
+}

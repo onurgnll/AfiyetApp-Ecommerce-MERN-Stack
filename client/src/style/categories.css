@@ -1,0 +1,131 @@
+.kategoriler{
+    min-height: 100% !important;
+    border-right: 1px rgb(225, 225, 225) solid;
+}
+
+.urunler{
+    width: 100%;
+    height: 100% !important;
+}
+
+.height100{
+    min-height: 100%;
+}
+
+.koyulastir{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.kategoriesss{
+    border-radius: 25px;
+    margin: 10px;
+    overflow: auto;
+    height: 75%;
+}
+
+
+
+
+.cardproduct{
+    height: 21rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 3px;
+    cursor: default;
+    
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.cardproductimage{
+    width: 100%;
+    height: 9rem !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    scale: 1;
+    border-bottom: 1px solid rgb(215, 215, 215);
+}
+.cardproduct-body{
+    width: 100%;
+    height: 9rem ;
+    text-align: center;
+    margin-top: 3px;
+    box-sizing: border-box;
+
+}
+.cardproduct:hover{
+
+    border: 1px solid rgb(164, 164, 164);
+}
+.cardproduct-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    height: 1.5rem;
+
+}
+.descc{
+    font-weight: bold;
+    font-size: small;
+}
+.desc{
+    font-size: small;
+}
+.cardproduct-desc{
+    max-height: 4rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.restt{
+    height: 1rem !important;
+    overflow: unset !important;
+}
+
+.addtocart{
+    background-color: rgb(0, 192, 0);
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 1rem;
+    border: none;
+    pointer-events: all !important;
+}
+
+.addtocart:active{
+    background-color: black !important;
+}
+.favorite{
+    background-color: rgb(227, 227, 0);
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 1rem;
+    border: none;
+    pointer-events: all !important;
+}
+.favorite:hover{
+    background-color: orange;
+}
+.favorite:active{
+    background-color: rgb(0, 0, 0);
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+    color: blue;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.addtocart:hover{
+    background-color: green;
+}

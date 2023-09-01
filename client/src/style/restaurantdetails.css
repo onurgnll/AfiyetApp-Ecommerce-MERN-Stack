@@ -1,0 +1,29 @@
+.restaurantimage {
+    display: inline-block;
+    width: 240px !important;
+    height: 240px !important;
+    border: 2px solid gray;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.restaurantimage img {
+    width: 100%;
+    height: 100%;
+}
+
+.endis{
+    border: 1px gray solid;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 1000;
+    color: crimson;
+    margin-left: 2rem;
+}
